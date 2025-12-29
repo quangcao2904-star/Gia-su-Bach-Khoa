@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Message, Subject, Theme, SubjectConfig } from '../types';
-import { generateTutorResponse } from '../services/gemini';
+import { generateTutorResponse } from '../Services/gemini';
 
 interface ChatWindowProps {
   subject: Subject; theme: Theme; messages: Message[]; config: SubjectConfig;
