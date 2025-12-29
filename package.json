@@ -1,0 +1,16 @@
+{
+  "name": "gia-su-bk",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@google/genai": "^1.34.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
