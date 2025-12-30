@@ -11,7 +11,6 @@ export const generateTutorResponse = async (
   if (config.provider === 'gemini') {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     const model = config.modelId || 'gemini-3-pro-preview';
-    
     const systemInstruction = `Bạn là "Gia Sư Bách Khoa", một chuyên gia giảng dạy môn ${subject}. 
     Phong cách: chuyên nghiệp, tận tâm. Hãy sử dụng LaTeX cho các công thức toán học/lý học/hóa học để hiển thị đẹp nhất.`;
 
